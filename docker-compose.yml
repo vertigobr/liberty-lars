@@ -1,7 +1,7 @@
 mongo:
   image: mongo
   volumes:
-    - /opt/data/larsdb:/data/db
+    - /opt/data/larsdb:/data/db:rw
 lars:
   image: vertigo/liberty-lars
   ports:
