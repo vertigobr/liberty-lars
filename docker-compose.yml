@@ -1,0 +1,10 @@
+mongo:
+  image: mongo
+  volumes:
+    - /opt/data/larsdb:/data/db
+lars:
+  image: vertigo/liberty-lars
+  ports:
+    - "9080:9080"
+  links:
+    - mongo:larsdb
