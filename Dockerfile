@@ -1,6 +1,6 @@
 # WebSphere Liberty Asset Repository Service
 
-FROM vertigo/liberty-web
+FROM vertigo/liberty-web:8.5.5.7
 
 MAINTAINER Andre Fernandes <andre@vertigo.com.br>
 
